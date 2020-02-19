@@ -40,32 +40,39 @@
 
             <div class="fixed-background intro">
                 <div class="fixed">
-                  <video id="pt-intro" src="../dev-assets/videos/Zoom_out_v002_12.mp4" data-trigger="pt-intro-trigger"></video>
+                  <video id="pt-intro" src="../dev-assets/videos/Alternative_Intro_Video_v007.mp4" data-trigger="pt-intro-trigger"></video>
                 </div>
                 <div class="scroll">
                     <div class="container">
-                        <div class="flex-panel flex-panel--tall">
-                            <span class="gap-header"></span>
-                            <span class="gap-stretch intro-offset"></span>
-                            <span class="line-block anim1 hidden-md"></span>
-                            <div class="intro-holder">
-                                <h2 class="sup"><span class="fade">Simple.</span><span class="fade">Smart.</span><span class="fade">Stress-free.</span></h2>
-                                <div class="ident-holder">
-                                    <button class="play play-lrg" id="pt-intro-trigger" data-targets='["pt-intro"]'>play</button>
-                                    <div class="ident">
-                                        <h2 class="h3">David Rowe</h2>
-                                        <p class="">Owner DPR Motorsports</p>
+                        <div class="row">
+                            <div class="col col6">
+                                <div class="flex-panel flex-panel--tall">
+                                    <span class="gap-header"></span>
+                                    <span class="gap-stretch intro-offset"></span>
+                                    <span class="line-block anim1 hidden-md"></span>
+                                    <div class="intro-holder">
+                                        <h2 class="sup"><span class="fade">Simple.</span><span class="fade">Smart.</span><span class="fade">Stress-free.</span></h2>
+                                        <div class="ident-holder">
+                                            <div class="ident-img">
+                                                <img src="../dev-assets/images/head.png" />
+                                            </div>
+                                            <div class="ident">
+                                                <h2 class="h3">David Rowe</h2>
+                                                <p class="">Owner DPR Motorsports</p>
+                                                <p class="quote">"Using Sage 50cloud is the best business decision I've ever made, it's helped us be so much more efficient."</p>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <span class="line-stretch anim2"></span>
+                                    <div class="scroll-cta-holder">
+                                        <button class="scroll-cta" aria-label="click or scroll to continue" data-target="benefits"><img src="../dev-assets/images/scroll.svg" /></button>
+                                        <div class="scroll-cta-content">
+                                            <p>Scroll for features</p>
+                                        </div>
+                                    </div>
+                                    <span class="line-block"></span>
                                 </div>
                             </div>
-                            <span class="line-stretch anim2"></span>
-                            <div class="scroll-cta-holder">
-                                <button class="scroll-cta" aria-label="click or scroll to continue" data-target="benefits"><img src="../dev-assets/images/scroll.svg" /></button>
-                                <div class="scroll-cta-content">
-                                    <p>Scroll for features</p>
-                                </div>
-                            </div>
-                            <span class="line-block"></span>
                         </div>
                     </div>
                 </div>
@@ -270,7 +277,7 @@
             $fadeIn = $('.fade-in'),
             $scrollCta = $('.scroll-cta'),
             introShouldPause = false,
-            introCanPause = true; //todo: introduce flag
+            introCanPause = false; //todo: introduce flag
 
         var playVideo = function (video) {
             var promise = video.play();
