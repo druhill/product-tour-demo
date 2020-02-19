@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="buttons/play" transform="matrix(0.9998477 0.01745241 -0.01745241 0.9998477 0.8378906 0)">
+    <g id="bg/circle/green">
+      <path d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" id="Oval-3" fill="#00AA6E" stroke="none" />
+    </g>
+    <path d="M10.6667 0L21.3333 16L0 16L10.6667 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 34 13)" id="Triangle-2" fill="#FFFFFF" stroke="none" />
+  </g>
+</svg>

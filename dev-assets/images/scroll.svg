@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="50px" viewBox="0 0 48 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Graphical-Icons/Slate/tab">
+    <path d="M0 0L48 0L48 48L0 48L0 0Z" id="bound" fill="none" stroke="none" />
+    <path d="M9.75723 2.968C9.75723 1.33 11.1012 0 12.7412 0C14.3972 0 15.7572 1.344 15.7572 3L15.7572 15L24.6752 18C26.6512 18.636 27.1012 20.972 26.6332 23L24.5932 34L8.62523 34L0.593233 22C-0.314767 20.612 -0.340767 18 1.65923 18C3.65923 18 5.75723 18.838 9.75723 25L9.75723 2.968L9.75723 2.968Z" transform="translate(11.24219 15.0008)" id="Stroke-307" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4.101 23.9015C-1.367 18.4315 -1.367 9.5695 4.101 4.0995C9.565 -1.3685 18.433 -1.3645 23.897 4.0995C29.367 9.5695 29.367 18.4315 23.897 23.9015" transform="translate(9.835938 1.0009)" id="Stroke-308" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
